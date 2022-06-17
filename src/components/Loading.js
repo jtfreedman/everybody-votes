@@ -1,11 +1,9 @@
 import Card from "./ui/Card";
 
-import classes from './Loading.module.css';
-
 export default function Loading() {
   return (
     <div>
-      <Card classname={classes.card}>
+      <Card width='250px' height='150px'>
         Tallying votes...
       </Card>
     </div>
