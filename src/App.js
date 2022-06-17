@@ -6,7 +6,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <div>
+    <div className={classes.app}>
       {isLoading && <Loading />}
     </div>
   );
