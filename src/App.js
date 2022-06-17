@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import classes from './App.module.css';
 import Loading from './components/Loading';
 
 function App() {
