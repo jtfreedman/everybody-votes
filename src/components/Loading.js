@@ -1,8 +1,13 @@
-export default function Loading() {
+import Card from "./ui/Card";
 
-    return (
-        <div>
-            Is Loading!
-        </div>
-    );
+import classes from './Loading.module.css';
+
+export default function Loading() {
+  return (
+    <div>
+      <Card classname={classes.card}>
+        Tallying votes...
+      </Card>
+    </div>
+  );
 }
