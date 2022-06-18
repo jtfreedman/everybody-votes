@@ -1,5 +1,6 @@
 .loading{
-    background-color: #C3BEC1;
+    /* background-color: #C3BEC1; */
+    background-image: linear-gradient(white, #C3BEC1);
     border-radius: 15px;
     border: 2px solid black;
     height: 10rem;
@@ -15,6 +16,7 @@
 }
 
 .text{
+    position: relative;
     text-align: center;
     line-height: 7rem;
     background-color: white;
@@ -23,6 +25,8 @@
     width: 97%;
     margin-left: 1.5%;
     margin-right: 1.5%;
+    border-radius: 2px;
+
 }
 
 .loading p{
@@ -30,6 +34,7 @@
 }
 
 .spinner {
-    position: absolute;
-    line-height: 80%;
+    position: relative;
+    bottom: 10%;
+    left: 90%;
 }
