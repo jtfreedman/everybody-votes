@@ -1,8 +1,27 @@
 .loading{
-    background-color: white;
-    border-radius: 7px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: #C3BEC1;
+    border-radius: 15px;
+    border: 2px solid black;
     height: 10rem;
     width: 20rem;
     margin-top: 10rem;
+}
+
+.fill{
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 15px;
+}
+
+.text{
+    text-align: center;
+    line-height: 7rem;
+    background-color: white;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+.loading p{
+    margin-top: 0%;
 }
