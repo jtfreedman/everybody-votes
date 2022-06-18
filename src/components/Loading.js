@@ -8,7 +8,9 @@ export default function Loading() {
       <div className={classes.text}>
         <p>Reading data...</p>
       </div>
-      <Spinner></Spinner>
+      <div className={classes.spinner}>
+        <Spinner />
+      </div>
     </div>
   );
 }
