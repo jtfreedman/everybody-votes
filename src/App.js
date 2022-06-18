@@ -5,9 +5,12 @@ import Loading from './components/Loading';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
+
+
   return (
     <div className={classes.app}>
       {isLoading && <Loading />}
+      
     </div>
   );
 }
